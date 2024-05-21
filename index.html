@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookStore</title>
+    <title>📚 BookStore</title>
+
+    <!--Font Awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--lINK ARQUIVO CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
-
 <body>
-    <header>
-        <div>
-            <i class="fa-solid fa-book-bible">BookThings</i>
-        </div>
 
+    <!--- 1. começando header da página-->
+    <header class="header">
+       
         <div>
-            <a href="http://"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="http://"><i class="fa-solid fa-star"></i></a>
-            <a href="http://"><i class="fa-solid fa-user-secret"></i></a>
-        </div>
+
+           <a href="#"> <i class="fa-solid fa-book"> </i> BookThings </a> 
+
+           <!-- Caixa de pesquisa-->
+           <form action="" >
+            
+            <input type="search" name="" placeholder="Procure o livro...." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+                
+            
+
+           </form>
+        
+           <!-- icones do perfil-->
+            <div class="">
+                <div id="" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="" class="fas fa-user"></div>
+               
+            </div>
+
+       </div>
+
+       <div class="">
+            <nav class="">
+                <a href="#home">Home</a>
+                <a href="#destaques">Destaques</a> <!--featured-->
+                <a href="#novidade">Lançamento</a><!--arrivals-->
+                <a href="#avaliações">Avaliações</a> <!--reviews-->
+                <a href="#contato">Contato</a><!--contact-->
+
+            </nav>
+        
+
+       </div>
+
     </header>
-</body>
+<!-- fim do header-->
 
+<!--LINK AQRUIVO JS-->
+<script src="js/script.js"> </script>    
+</body>
 </html>
