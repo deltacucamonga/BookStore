@@ -162,3 +162,38 @@ html::-webkit-scrollbar-thumb{
 .header-2 .navBar a:hover{
   background:#0ca893;
 }
+.home {
+  background: url(../image/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home .row .content{
+  flex: 1 1 42rem;
+}
+.home .row .books-slider{
+flex: 1 1 42rem;
+text-align: center;
+}
+.home .row .books-slider a img{
+height: 25rem;
+}
+.home .row .content h3{
+  color: #444;
+ font-size: 4.5rem;
+}
+.home .row .content p{
+  color: #fff;
+  font-size: 20px;
+}
+.home .row .books-slider a img{
+  box-shadow: var(--box-shadow);
+}
+.home .row .books-slider a:hover img{
+  transform: scale(0.9);
+}
